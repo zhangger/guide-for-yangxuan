@@ -28,12 +28,17 @@
 
 原文作者：XXXXXX
 
+文章分类：（此处写上 TOC 页面的分类信息即可，如：移动应用开发）
+
 ## 关于本文
 
 XXXXXXXXXXXXXXXXXXX大约50到100字
 
 ## 文章内容
 XXXXXXXXXXXXXX......
+
+> 更多IT技术干货: [wiki.jikexueyuan.com](wiki.jikexueyuan.com)   
+> 加入极客星球翻译团队: [http://wiki.jikexueyuan.com/project/wiki-editors-guidelines/translators.html](http://wiki.jikexueyuan.com/project/wiki-editors-guidelines/translators.html)   
 
 > 版权声明：   
 > 本译文仅用于学习和交流目的。非商业转载请注明译者、出处，并保留文章在极客学院的完整链接   
@@ -53,12 +58,17 @@ XXXXXXXXXXXXXX......
 
 原文作者：XXXXXX
 
+文章分类：（此处写上 TOC 页面的分类信息即可 如：移动应用开发）
+
 ## 关于本文
 
 XXXXXXXXXXXXXXXXXXX大约50到100字
 
 ## 文章内容
 XXXXXXXXXXXXXX......
+
+> 更多IT技术干货: [wiki.jikexueyuan.com](wiki.jikexueyuan.com)   
+> 加入极客星球翻译团队: [http://wiki.jikexueyuan.com/project/wiki-editors-guidelines/translators.html](http://wiki.jikexueyuan.com/project/wiki-editors-guidelines/translators.html)   
 
 > 版权声明：   
 > 本译文仅用于学习和交流目的。非商业转载请注明译者、出处，并保留文章在极客学院的完整链接   
