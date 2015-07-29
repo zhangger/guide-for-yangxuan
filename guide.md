@@ -44,6 +44,9 @@
 ```
 ![01](images/persisting-data-local-storage-01.jpg) 
 ```
+- 视频 
+
+进行截图，然后当做图片处理。然后在图片下面附上视频的地址
 
 ## 3\. 任务提交时间
 
