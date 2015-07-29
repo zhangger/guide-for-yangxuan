@@ -11,25 +11,67 @@
 
 - 每个文章翻译后需要写上出处 时间和原作者 然后再写一小段介绍性的话 类似序言之类 写在文章的最前面 [序言由自己书写，大约50到100字]
 
-格式：
+#### **每篇文章统一格式**：
 
-原文地址:[链接]
+从上到下标题——》图片——》(文章翻译、发表时间、原文作者（作者如果有链接的话需要提供链接))—》关于本文—》文章内容(正文）—>版权声明 
 
-时间：2015年x月x年（写原文的编写时间）
+可以复制该模板：
 
-作者：作者的名字
+```
+# 标题
+
+![01](images/图片名)
+
+文章翻译 ：[你的姓名](你的微博账号或者博客或者github账号)
+
+发表时间：2015 年 x 月 x 日  //此处数字和中文之间要空格
+
+原文作者：XXXXXX
 
 ## 关于本文
 
-在这里书写关于文章的介绍及序言的地方，由自己归纳总结。
+XXXXXXXXXXXXXXXXXXX大约50到100字
 
-实例：请参见周倍同同学翻译的格式。
+## 文章内容
+XXXXXXXXXXXXXX......
+
+> 版权声明：   
+> 本译文仅用于学习和交流目的。非商业转载请注明译者、出处，并保留文章在极客学院的完整链接   
+> 商业合作请联系 wiki@jikexueyuan.com   
+> 原文地址：[XXXXXXX](XXXXXXX)
+```
+
+效果：
+
+# 标题
+
+![01](images/图片名)
+
+文章翻译 ：[你的姓名](你的微博账号或者博客或者github账号)
+
+发表时间：2015 年 x 月 x 日  //此处数字和中文之间要空格
+
+原文作者：XXXXXX
+
+## 关于本文
+
+XXXXXXXXXXXXXXXXXXX大约50到100字
+
+## 文章内容
+XXXXXXXXXXXXXX......
+
+> 版权声明：   
+> 本译文仅用于学习和交流目的。非商业转载请注明译者、出处，并保留文章在极客学院的完整链接   
+> 商业合作请联系 wiki@jikexueyuan.com   
+> 原文地址：[XXXXXXX](XXXXXXX)
+
+#### 实例：请参见周倍同同学翻译的格式。
 
 [使用 ionic 将数据保存到本地存储中](https://github.com/yangxuanxc/wiki-journal-201507-1/blob/master/persisting-data-local-storage.md)
 
 - 文章中的图片
 
-将文章中的图片保存在本地 
+如果文章中有图片，那么将文章中的图片保存在本地 
 
 命名格式为 md文件名 + 图片名（序号，第几张图就为几） + 后缀名 如 md 文件名为 **persisting-data-local-storage.md**
 
@@ -44,19 +86,92 @@
 ```
 ![01](images/persisting-data-local-storage-01.jpg) 
 ```
-- 视频 
+#### 如果翻译的文章中没有图片，那么大家自己在网上找一个相符的图片放在文章标题下，按照上述格式，最好用 google 或者 bing 图片搜索。
+
+
+- 如果文章中视频 
 
 进行截图，然后当做图片处理。然后在图片下面附上视频的地址
+
+```
+![01](images/图片名)
+
+[视频地址](xxxxxxxx)
+```
+- 文章中的代码
+
+代码块 ```后面要跟上语言类型 
+
+github可以对相关语言解析高亮 
+比如javascript 就写成 
+
+\`\`\`javascript  
+function show5(){if(!document.layers&&!document.all)  
+return  
+var Digital=new Date()  
+var hours=Digital.getHours()  
+var minutes=Digital.getMinutes()  
+var seconds=Digital.getSeconds()  
+var dn="AM"  
+if(hours>12){dn="PM"  
+hours=hours-12  
+}if(hours==0)  
+hours=12  
+if(minutes<=9)  
+minutes="0"+minutes  
+if(seconds<=9)  
+seconds="0"+seconds  
+//change font size here to your desire  
+myclock="<font size='5' face='Arial'><b><font size='1'>Current Time:</font></br>"+hours+":"+minutes+":"  
++seconds+" "+dn+"</b></font>"  
+if(document.layers){document.layers.liveclock.document.write(myclock)  
+document.layers.liveclock.document.close()  
+}else if(document.all)  
+liveclock.innerHTML=myclock  
+setTimeout("show5()",1000)  
+}
+\`\`\`
+
+效果 ：
+
+```javascript
+function show5(){if(!document.layers&&!document.all)
+return
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var seconds=Digital.getSeconds()
+var dn="AM"
+if(hours>12){dn="PM"
+hours=hours-12
+}if(hours==0)
+hours=12
+if(minutes<=9)
+minutes="0"+minutes
+if(seconds<=9)
+seconds="0"+seconds
+//change font size here to your desire
+myclock="<font size='5' face='Arial'><b><font size='1'>Current Time:</font></br>"+hours+":"+minutes+":"
++seconds+" "+dn+"</b></font>"
+if(document.layers){document.layers.liveclock.document.write(myclock)
+document.layers.liveclock.document.close()
+}else if(document.all)
+liveclock.innerHTML=myclock
+setTimeout("show5()",1000)
+}
+```
 
 ## 3\. 任务提交时间
 
 正常情况下，提交时间从分配任务开始 ，你完成的时间为 你的总单词数/1000（天），比如在今天给你分配了3000词，那么你的提交时间最晚就在三天后，希望大家积极提交。提交后如果有新的任务，会优先进行分配。
 
-## 4\. 任务说明
+## 4\. 翻墙问题
 
-此次任务翻译的是国外的精品文章，所以可以留下翻译者的名字，可以做成链接 链到个人的名字上 比如个人的网站，github或者微博号什么的 这个也是对自己的一个宣传 译文也可以作为后面证明自己翻译能力的依据所以希望大家好好翻译，质量要求较高。
+因为有些文章需要翻墙才能查看，所以遇到需要需要翻墙的时候请参考该教程
 
-## 5\. 提供文章
+[翻墙教程](http://blog.ss-link.com/archives/23)
+
+## 5\. 投稿文章
 
 大家如果看到有比较好的文章也可以积极告诉组长，组长交由经理确认后就可以进行翻译
 
